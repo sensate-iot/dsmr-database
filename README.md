@@ -4,27 +4,16 @@ The Sensate IoT Smart Energy project implements an IoT solution for (Dutch)
 Smart Meters. The project consists of several repository's:
 
 - DSMR parser (this repo);
-- DSMR web client (implementator of this service)
-- Several customer facing apps
+- DSMR web client (implementator of this service);
+- Several customer facing apps;
+- DSMR database project.
 
-## DSMR parser
+## Database projects
 
-The DSMR parser receives requests from the web client with a DSMR telegram. Telegrams
-are data messages from Dutch smart meters. These messages are formatted according
-to the DSMR standard. This parser supports the following versions of DSMR:
+The data related to DSMR projects is disributed acros several sources:
 
-- DSMR 2.0
-- DSMR 4.2
-- ESMR 5.x
+- Sensate IoT Data Platform;
+- This database project.
 
-## WCF
-
-This service exposes a WCF `Parse` endpoint. Clients can implement the contract in oder to
-communicate with this service and parse messages. The contract definition can be found in
-the `SensateIoT.SmartEnergy.Dsmr.Parser` project.
-
-## Enhancements
-
-This services enhances the DSMR telegram in serveral ways. First of all, using a small cache
-the gas flow is calculated using previously received messages. If no previous messages are found
-the gas flow is defaulted to 0.
+This database project acts as a OLAP database, for aggregated data only. Data that is
+the dataplatform is (and should) be used for individual messges and/or measurements.
