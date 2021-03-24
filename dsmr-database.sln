@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SensateIoT.SmartEnergy.Dsmr.Database", "SensateIoT.SmartEnergy.Dsmr.Database.sqlproj", "{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15F52253-8493-4F65-84B7-5ED8267A4E3F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CODESTYLE.md = CODESTYLE.md
+		COPYING = COPYING
+		README.md = README.md
+		SECURITY.md = SECURITY.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3B7EF9-D3A7-4F6C-AA12-CF9C13A9660C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {043A3899-D6FD-4FDD-B71B-D5389941A4D2}
+	EndGlobalSection
+EndGlobal
