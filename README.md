@@ -3,10 +3,10 @@
 The Sensate IoT Smart Energy project implements an IoT solution for (Dutch)
 Smart Meters. The project consists of several repository's:
 
-- DSMR parser (this repo);
+- DSMR parser;
 - DSMR web client (implementator of this service);
 - Several customer facing apps;
-- DSMR database project.
+- DSMR database project (this repo).
 
 ## Database projects
 
