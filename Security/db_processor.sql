@@ -15,3 +15,5 @@ GRANT EXECUTE ON [dbo].[DsmrProcessor_SelectLastProcessedBySensorId] TO [db_proc
 GO
 GRANT EXECUTE ON [dbo].[DsmrProcessor_SelectSensorMapping] TO [db_processor]
 GO
+GRANT EXECUTE ON TYPE::[dbo].[DataPoint] TO [db_processor]
+GO

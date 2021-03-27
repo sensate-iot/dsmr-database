@@ -9,5 +9,5 @@
 
 	CONSTRAINT [PK_SensorMapping] PRIMARY KEY NONCLUSTERED ([Id] ASC),
 	INDEX [IX_SensorMapping_PowerSensorId] UNIQUE NONCLUSTERED ([PowerSensorId]),
-	INDEX [IX_SensorMapping_ServiceName] UNIQUE NONCLUSTERED ([ServiceName])
+	INDEX [IX_SensorMapping_ServiceName] NONCLUSTERED ([ServiceName])
 )
