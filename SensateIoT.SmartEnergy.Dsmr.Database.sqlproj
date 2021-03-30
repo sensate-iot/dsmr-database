@@ -22,8 +22,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
-    <DacVersion>1.1.0.0</DacVersion>
-    <DacApplicationName>DSMR</DacApplicationName>
+    <DacVersion>1.2.0.0</DacVersion>
+    <DacApplicationName>Dsmr</DacApplicationName>
     <Recovery>SIMPLE</Recovery>
     <PageVerify>CHECKSUM</PageVerify>
   </PropertyGroup>
@@ -69,6 +69,7 @@
     <Folder Include="dbo\Tables" />
     <Folder Include="dbo\Types" />
     <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="dbo\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DataPoints.sql" />
@@ -83,5 +84,14 @@
     <Build Include="dbo\Stored Procedures\DsmrProcessor_SelectLastProcessedBySensorId.sql" />
     <Build Include="dbo\Stored Procedures\DsmrProcessor_SelectSensorMapping.sql" />
     <Build Include="Security\db_processor.sql" />
+    <Build Include="dbo\Views\EnvironmentDataHourlyAverages.sql" />
+    <Build Include="dbo\Views\PowerDataHourlyAverages.sql" />
+    <Build Include="Security\db_dsmrapi.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectDataPoints.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectEnvironmentDailyAverages.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectHourlyEnvironmentDataAverages.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectHourlyPowerDataAverages.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectLastData.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectPowerDailyAverages.sql" />
   </ItemGroup>
 </Project>
