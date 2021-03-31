@@ -5,7 +5,7 @@ AS
 		   [SensorId],
 		   AVG([PowerProduction]) AS [EnergyProduction],
 		   AVG([PowerUsage]) AS [EnergyUsage],
-		   AVG([GasFlow]) * 60 AS [GasFlow], -- Convert to m3/hour
+		   AVG([GasFlow]) * 60.0 AS [GasFlow], -- Convert to m3/hour
 		   AVG([GasUsage]) AS [GasUsage],
 		   AVG([Temperature]) AS [InsideTemperature],
 		   AVG([OutsideAirTemperature]) AS [Oat]
