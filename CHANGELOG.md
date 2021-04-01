@@ -13,6 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - Version support policy
 
+## [1.2.0] - 01-04-2021
+### Added
+- Tarif indicator
+
+### Updated
+- File formatting
+- Insertion stored procedures
+
 ## [1.1.0] - 27-03-2021
 ### Added
 - Add permissions for [dbo].[DataPoint] to [db_processor]

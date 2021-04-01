@@ -24,6 +24,7 @@
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DacVersion>1.2.0.0</DacVersion>
     <DacApplicationName>Dsmr</DacApplicationName>
+    <DacApplicationName>DSMR</DacApplicationName>
     <Recovery>SIMPLE</Recovery>
     <PageVerify>CHECKSUM</PageVerify>
   </PropertyGroup>
