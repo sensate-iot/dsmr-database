@@ -94,5 +94,6 @@
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectHourlyPowerDataAverages.sql" />
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectLastData.sql" />
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectPowerDailyAverages.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectWeeklyHigh.sql" />
   </ItemGroup>
 </Project>

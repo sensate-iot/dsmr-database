@@ -13,3 +13,5 @@ GRANT EXECUTE ON [dbo].[DsmrApi_SelectLastData] TO [db_dsmrapi]
 GO
 GRANT EXECUTE ON [dbo].[DsmrApi_SelectPowerDailyAverages] TO [db_dsmrapi]
 GO
+GRANT EXECUTE ON [dbo].[DsmrApi_SelectWeeklyHigh] TO [db_dsmrapi]
+GO
