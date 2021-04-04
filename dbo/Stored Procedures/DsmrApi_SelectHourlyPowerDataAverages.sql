@@ -8,9 +8,7 @@ BEGIN
 		   DATEPART(HOUR, [Timestamp]) as [Hour],
 		   AVG([PowerProduction]) AS [EnergyProduction],
 		   AVG([PowerUsage]) AS [EnergyUsage],
-		   AVG([GasFlow]) * 1000.0 AS [GasFlow], -- Convert to liters/min
-		   AVG([Temperature]) AS [InsideTemperature],
-		   AVG([OutsideAirTemperature]) AS [OutsideAirTemperature]
+		   AVG([GasFlow]) * 1000.0 AS [GasFlow] -- Convert to liters/min
 	  FROM [dbo].[DataPoints]
 	  WHERE [Timestamp] >= @start
 		AND [Timestamp] < @end
