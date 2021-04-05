@@ -9,8 +9,9 @@ the currently supported versions. Questions about unsupported versions will not
 be answered, and issues/bug reports will be instantly closed.
 
 | Version   | Supported          |
-| 1.2.0     | :white_check_mark: |
-| < 1.1.x   | :x:                |
+| --------- | ------------------ |
+| 1.2.x     | :white_check_mark: |
+| < 1.1.0   | :x:                |
 
 ## Reporting a Vulnerability
 
