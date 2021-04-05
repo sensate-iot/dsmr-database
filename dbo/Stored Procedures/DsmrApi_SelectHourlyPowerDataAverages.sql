@@ -8,6 +8,7 @@ BEGIN
 		   DATEPART(HOUR, [Timestamp]) as [Hour],
 		   AVG([PowerProduction]) AS [EnergyProduction],
 		   AVG([PowerUsage]) AS [EnergyUsage],
+		   MAX(CONVERT(INT, [Tariff])) AS [Tariff],
 		   AVG([GasFlow]) * 1000.0 AS [GasFlow] -- Convert to liters/min
 	  FROM [dbo].[DataPoints]
 	  WHERE [Timestamp] >= @start

@@ -8,6 +8,7 @@ BEGIN
 		  ,[PowerProduction]
 		  ,[EnergyUsage]
 		  ,[EnergyProduction]
+		  ,[Tariff]
 		  ,[GasUsage]
 		  ,[GasFlow]
 		  ,[OutsideAirTemperature]

@@ -7,7 +7,7 @@ BEGIN
 	SELECT [Date],
 		   SUM([EnergyProduction]) AS [EnergyProduction],
 		   SUM([EnergyUsage]) AS [EnergyUsage],
-		   AVG([GasFlow]) * 24 AS [GasFlow] -- m3/hour * 24 hours = m3 used in a day
+		   SUM([GasFlow]) AS [GasFlow] -- Sum total gas usage
 	  FROM [dbo].[PowerDataHourlyAverages]
 	  WHERE [SensorId] = @sensorId
 		AND [Date] >= @start
