@@ -17,3 +17,5 @@ The data related to DSMR projects is disributed acros several sources:
 
 This database project acts as a OLAP database, for aggregated data only. Data that is
 the dataplatform is (and should) be used for individual messges and/or measurements.
+
+This databse is filled by the DSMR Processing service.

@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
 - Various stored procedures, to include sensor checks
+- README document
+- Security document
+
+### Removed
+- Code style document
 
 ## [1.3.0] - 05-04-2021
 ### Added
