@@ -16,5 +16,6 @@ BEGIN
       ,[RH]
       ,[Timestamp]
 	FROM [dbo].[DataPoints]
+    WHERE [SensorId] = @sensorId
 	ORDER BY [Timestamp] DESC
 END

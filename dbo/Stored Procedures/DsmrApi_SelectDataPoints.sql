@@ -19,4 +19,5 @@ BEGIN
 	  FROM [dbo].[DataPoints]
 	  WHERE [Timestamp] >= @start
 	    AND [Timestamp] <  @end
+		AND [SensorId] = @sensorId
 END
