@@ -7,8 +7,8 @@
 	[End]                       DATETIME        NOT NULL,
 	[Timestamp]                 DATETIME        NOT NULL DEFAULT(GETDATE())
 
-	CONSTRAINT [PK_ProcessingHistory] PRIMARY KEY NONCLUSTERED ([Id] ASC),
-	CONSTRAINT [FK_ProcessingHistory_SensorMapping] FOREIGN KEY ([SensorId]) REFERENCES [SensorMapping] ([Id])
-		ON UPDATE CASCADE
-		ON DELETE CASCADE
-)
+	CONSTRAINT [PK_ProcessingHistory] PRIMARY KEY NONCLUSTERED ([Id] ASC)
+	INDEX [IX_ProcessingHistory_SensorId] NONCLUSTERED ([SensorId])
+	INDEX [IX_ProcessingHistory_Timestamp] NONCLUSTERED ([Timestamp] ASC)
+);
+
