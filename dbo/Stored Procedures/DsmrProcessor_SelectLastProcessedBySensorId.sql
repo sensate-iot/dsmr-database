@@ -3,8 +3,8 @@
 AS
 BEGIN
 	SELECT TOP(1) @sensorId AS [SensorId],
-			      [Start],
-				  [End]
+	              [Start],
+	              [End]
 	FROM [dbo].[ProcessingHistory]
 	WHERE [SensorId] = @sensorId
 	ORDER BY [End] DESC
