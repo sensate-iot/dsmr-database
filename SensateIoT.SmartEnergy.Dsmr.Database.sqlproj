@@ -22,7 +22,7 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
-    <DacVersion>1.5.0.0</DacVersion>
+    <DacVersion>1.6.0.0</DacVersion>
     <DacApplicationName>Dsmr</DacApplicationName>
     <DacApplicationName>DSMR</DacApplicationName>
     <Recovery>SIMPLE</Recovery>
@@ -93,5 +93,6 @@
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectPowerDailyAverages.sql" />
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectWeeklyHigh.sql" />
     <Build Include="dbo\Stored Procedures\DsmrApi_SelectPowerDataByHour.sql" />
+    <Build Include="dbo\Stored Procedures\DsmrApi_SelectEnergyDataBetween.sql" />
   </ItemGroup>
 </Project>
