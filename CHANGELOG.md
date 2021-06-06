@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.6.0] - 03-02-2021
 ### Added
+- Permissions for the DSMR API
 - Stored procedure to compute energy usage/production
 
 ### Updated
