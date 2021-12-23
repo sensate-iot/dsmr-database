@@ -7,7 +7,7 @@ BEGIN
 	SELECT DATEPART(HOUR, [Timestamp]) as [Hour],
 		   AVG([PowerUsage]) AS [AveragePowerUsage],
 		   AVG([PowerProduction]) AS [AveragePowerProduction],
-		   AVG([GasFlow]) * 60 * 1000 AS [AverageGasFlow] -- Convert gas flow to L/min
+		   AVG([GasFlow]) * 60.0 * 1000.0 AS [AverageGasFlow] -- Convert gas flow to L/min
 	FROM [dbo].[DataPoints]
 	WHERE [SensorId] = @sensorId
 	  AND [Timestamp] >= @start

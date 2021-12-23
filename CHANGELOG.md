@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.7.0] - 23-12-2021
 ### Added
-- Stored procedure DsmrApi_ComputeDeviceCapabilities.sql
+- Stored procedure DsmrApi_ComputeDeviceCapabilities
 - Stored procedure DsmrApi_SelectAverageEnergyDataPerHour
 
 ### Updated
